@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIPORA - Kompres Gambar Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title">ZIPORA</div>
+            <div class="subtitle">Compress Image Online</div>
+        </header>
+        <h2 style="text-align:center; color:#fff; margin-top:20px;">Compress Image Online</h2>
+        <div class="main-content">
+            <div class="upload-area" id="upload-area">
+                <div id="original-placeholder">
+                    <p><b>ORIGINAL IMAGES</b> (jpg, gif, png)</p>
+                    <img src="https://img.icons8.com/ios/100/000000/image.png" alt="upload icon" width="80" style="opacity:0.3;">
+                    <div>KLIK ATAU SERET & LETAKKAN GAMBAR</div>
+                </div>
+                <img id="original-preview" class="hidden" alt="Original Preview">
+                <input type="file" id="file-upload" class="hidden" accept="image/png, image/jpeg, image/gif">
+            </div>
+            <div class="result-area" id="result-area">
+                <div id="compress-placeholder">
+                    <p><b>COMPRESS RESULT</b></p>
+                    <img src="https://img.icons8.com/ios/100/000000/image.png" alt="result icon" width="80" style="opacity:0.3;">
+                </div>
+                <img id="compress-preview" class="hidden" alt="Compressed Preview">
+                <a href="#" id="download-link" class="hidden" download>DOWNLOAD GAMBAR</a>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="upload-btn">UPLOAD</button>
+            <button id="compress-btn">COMPRESS</button>
+        </div>
+        <div class="info-section">
+            <h3>Cara Kompres Gambar dengan Mudah dalam 3 Langkah!</h3>
+            <ul>
+                <li>Pilih gambar dari komputer Anda dengan mengklik area upload atau menyeret file ke dalamnya.</li>
+                <li>Klik tombol "UPLOAD" untuk mengirim gambar ke server.</li>
+                <li>Setelah berhasil, klik tombol "COMPRESS" untuk memulai kompresi.</li>
+                <li>Unduh hasil gambar yang sudah dikompres menggunakan tombol download.</li>
+            </ul>
+            <b>Q : Berapa batas ukuran gambar?</b><br>
+            A : Anda dapat mengunggah gambar hingga 9 MB.<br>
+            <b>Q : Ekstensi gambar apa saja yang didukung?</b><br>
+            A : JPG, JPEG, GIF, PNG.<br>
+            <b>Q : Apakah gambar saya disimpan?</b><br>
+            A : Tidak, gambar akan dihapus secara berkala untuk menjaga privasi Anda.<br>
+        </div>
+        <footer>
+            © 2024 - ZIPORA.com - V5.0 - <a href="#">Kontak</a> - <a href="#">Cookie</a> - <a href="#">Privasi</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
